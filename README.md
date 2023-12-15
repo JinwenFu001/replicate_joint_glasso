@@ -1,4 +1,5 @@
 ## documents intro
+
 all_codes.R  Contains all codes including GLASSO, Joint GLASSO, simulation, metrics functions and real world data analysis;  
 train.label  Contains the category information of each document;  
 vocabulary.txt  Contains the words appears in at least one document;  

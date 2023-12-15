@@ -1,7 +1,6 @@
-#package required for simulation
-library(SimDesign)
+library(SimDesign)#package required for simulation
 library(R.matlab)
-library(Matrix)
+library(Matrix)#package required for reading and processing matrix
 ##### ALGORITHM FUNTIONS #####
 
 #function 1: Cool inverse that guarantees symmetricity

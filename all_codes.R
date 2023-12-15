@@ -1,6 +1,7 @@
 #package required for simulation
 library(SimDesign)
-
+library(R.matlab)
+library(Matrix)
 ##### ALGORITHM FUNTIONS #####
 
 #function 1: Cool inverse that guarantees symmetricity
@@ -692,8 +693,7 @@ ns=rep(sample_num,length(S_list))
 #set the number of variables in p
 p=100
 
-library(R.matlab)
-library(Matrix)
+
 data <- readMat("~/proj_gl/train_converted.mat")[[1]]
 sparse_matrix <- sparseMatrix(i = data[,1], j = data[,2], x = data[,3])
 label=read.table('~/proj_gl/train.label')
